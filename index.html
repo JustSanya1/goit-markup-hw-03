@@ -4,82 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework</title>
+    <!-- Normalize -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,704;1,704&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header class="header">
+    <header class="page-header">
       <nav class="navigation">
-        <a href="./index.html" class="logo"
+        <a class="logo" href="./index.html"
           >Web<span class="logo-span">Studio</span></a
         >
 
-        <ul class="nav-links">
-          <li><a class="link" href="./index.html" target="_self">Studio</a></li>
-          <li>
-            <a class="link" href="" target="_self">Portfolio</a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-link" href="./index.html" target="_self">Studio</a>
           </li>
-          <li>
-            <a class="link" href="" target="_self">Contacts</a>
+          <li class="nav-list-item">
+            <a class="nav-link" href="" target="_self">Portfolio</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link" href="" target="_self">Contacts</a>
           </li>
         </ul>
       </nav>
 
       <address class="address">
         <ul class="adress-list">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com"
+          <li class="adress-list-item">
+            <a class="adress-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="adress-list-item">
+            <a class="adress-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
-    <main class="main">
-      <section class="title-section">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+    <main class="Main-content">
+      <!-- !HERO -->
+      <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
+      <!-- !/HERO -->
 
-      <section class="qualities">
-        <h2 class="qualities-title">Qualities</h2>
+      <!-- !QUALITIES -->
+      <section class="qualities-section">
+        <h2 class="visually-hidden qualities-main-title">Qualities</h2>
         <ul class="qualities-list">
-          <li>
+          <li class="qualities-list-item">
             <h3 class="qualities-title">Strategy</h3>
             <p class="qualities-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="qualities-list-item">
             <h3 class="qualities-title">Punctuality</h3>
             <p class="qualities-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="qualities-list-item">
             <h3 class="qualities-title">Diligence</h3>
             <p class="qualities-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="qualities-list-item">
             <h3 class="qualities-title">Technologies</h3>
             <p class="qualities-text">
               Design practice focused on digital experiences. We bring forth a
@@ -88,12 +98,15 @@
           </li>
         </ul>
       </section>
+      <!-- !/QUALITIES -->
 
-      <section class="our-team">
+      <!-- !TEAM -->
+      <section class="our-team-section">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-member">
             <img
+              class="member-photo"
               src="./images/img-3.jpg"
               alt="Mark Guerrero"
               width="264"
@@ -104,6 +117,7 @@
           </li>
           <li class="team-member">
             <img
+              class="member-photo"
               src="./images/img-2.jpg"
               alt="Tom Ford"
               width="264"
@@ -114,6 +128,7 @@
           </li>
           <li class="team-member">
             <img
+              class="member-photo"
               src="./images/img-1.jpg"
               alt="Camila Garcia"
               width="264"
@@ -124,6 +139,7 @@
           </li>
           <li class="team-member">
             <img
+              class="member-photo"
               src="./images/img.jpg"
               alt="Daniel Wilson"
               width="264"
@@ -134,12 +150,15 @@
           </li>
         </ul>
       </section>
+      <!-- !/TEAM -->
 
+      <!-- !PORTFOLIO -->
       <section class="our-portfolio">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/banking-app.jpg"
               alt="Banking App"
               width="360"
@@ -148,8 +167,9 @@
             <h3 class="app-name">Banking App</h3>
             <p class="portfolio-text">App</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/cashless-payment.jpg"
               alt="Cashless Payment"
               width="360"
@@ -158,8 +178,9 @@
             <h3 class="app-name">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/meditation.jpg"
               alt="Meditation App"
               width="360"
@@ -168,8 +189,9 @@
             <h3 class="app-name">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/taxi.jpg"
               alt="Taxi Service"
               width="360"
@@ -178,8 +200,9 @@
             <h3 class="app-name">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/screen-ill.jpg"
               alt="Screen Illustrations"
               width="360"
@@ -188,8 +211,9 @@
             <h3 class="app-name">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-img"
               src="./images/online-courses.jpg"
               alt="Online Courses"
               width="360"
@@ -200,11 +224,12 @@
           </li>
         </ul>
       </section>
+      <!-- !/PORTFOLIO -->
     </main>
-
+    <!-- !FOOTER -->
     <footer class="footer">
       <a class="logo" href="./index.html"
-        >Web<span class="logo-span">Studio</span></a
+        >Web<span class="logo-footer-span">Studio</span></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital

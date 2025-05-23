@@ -57,8 +57,8 @@ body {
 }
 .container {
   width: 1158px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .section {
@@ -69,13 +69,14 @@ body {
 
 /* !================== HEADER ==================== */
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .head-container {
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
 .navigation {
   display: flex;
+  align-items: center;
   margin-right: 332px;
 }
 .logo {
@@ -146,13 +147,14 @@ body {
 /* ! ============= HERO ===================== */
 .hero-section {
   background-color: var(--primary-text-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 187px;
-  padding-bottom: 188px;
+
   flex-direction: column;
 }
 .hero-title {
@@ -239,12 +241,15 @@ body {
   background-color: var(--background-color);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  max-width: 264px;
+  width: calc((100% - 72px) / 4);
   justify-content: center;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-member-text {
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 .member-photo {
-  margin-bottom: 32px;
 }
 .member-name {
   font-weight: 500;
@@ -286,7 +291,7 @@ body {
   padding-bottom: 32px;
 }
 .portfolio-list-item {
-  max-width: 360px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-img {
 }
@@ -312,13 +317,14 @@ body {
 /* ! =========== FOOTER ================ */
 .footer {
   background-color: var(--primary-text-color);
+  padding: 100px 0px;
 }
 .footer-container {
-  padding: 100px 0px;
   display: flex;
   flex-direction: column;
 }
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;

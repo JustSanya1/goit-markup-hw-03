@@ -321,8 +321,6 @@ body {
   padding: 100px 0px;
 }
 .footer-container {
-  display: flex;
-  flex-direction: column;
 }
 .logo-footer {
   display: inline-block;

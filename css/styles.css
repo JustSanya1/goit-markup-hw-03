@@ -61,12 +61,17 @@ body {
   padding-right: 14px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ! ============= BASE STYLE ================ */
 
 /* !================== HEADER ==================== */
 .page-header {
 }
 .head-container {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
 .navigation {
@@ -216,7 +221,6 @@ body {
   flex-direction: column;
   padding-bottom: 120px;
   padding-top: 120px;
-  margin-bottom: 120px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -259,10 +263,9 @@ body {
 /* ! =============== /TEAM ================= */
 
 /* ! =============== PORTFOLIO ============= */
-.our-portfolio {
+.our-portfolio-section {
 }
 .portfolio-container {
-  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;

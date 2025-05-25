@@ -220,10 +220,6 @@ body {
   background-color: #f4f4fd;
 }
 .team-container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -272,9 +268,6 @@ body {
 .our-portfolio-section {
 }
 .portfolio-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .portfolio-title {
   margin-bottom: 72px;
@@ -289,7 +282,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 32px;
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
